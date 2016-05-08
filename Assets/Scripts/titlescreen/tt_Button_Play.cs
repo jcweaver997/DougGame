@@ -7,7 +7,7 @@ public class tt_Button_Play : MonoBehaviour {
 
     public void Start()
     {
-        nextSceneLoaded = SceneManager.LoadSceneAsync(3); // 3 is namemenu
+        nextSceneLoaded = SceneManager.LoadSceneAsync(1); // 1 is namemenu
         nextSceneLoaded.allowSceneActivation = false;
     }
 

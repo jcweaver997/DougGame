@@ -19,6 +19,6 @@ public class nm_Button_Okay : MonoBehaviour {
         }
 
         Global.PlayerName = text.text;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }
